@@ -13,6 +13,43 @@ h1 {
   text-align:center; 
   border-radius:5px;
 }
+#test1 {
+  font-family: Arial;
+  background-color: #BFBFBF;
+  padding:20px;
+  margin:30px auto;
+  max-width:70%;
+  border:1px solid #000;
+  border-radius:5px;
+}
+#flexbox {
+    display: flex;
+}
+#image {
+  background-color: #ffe0b3;
+  padding:20px;
+  margin: auto;
+  max-width:70%;
+  border:2px solid #ff9900; 
+  border-radius:5px;
+}
+#test1-text {
+  flex-direction: column;
+  font-family: Helvetica;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  background-color: #DFDFDF;
+  padding:20px;
+  margin: auto;
+  max-width:70%;
+  border:1px solid #000; 
+  border-radius:5px;
+  width: 200px;
+  height: 282px;
+}
 p {
   font-family: Arial;
 }
