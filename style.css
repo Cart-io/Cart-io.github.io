@@ -17,8 +17,7 @@ h1 {
   font-family: Arial;
   background-color: #BFBFBF;
   padding:20px;
-  margin:30px auto;
-  max-width:70%;
+  margin:30px;
   border:1px solid #000;
   border-radius:5px;
 }
@@ -38,6 +37,7 @@ h1 {
   margin: 20px;
   border:2px solid #3788ad; 
   border-radius:5px;
+  margin-left: auto;
 }
 #test1-text1 {
   flex-direction: column;
@@ -71,6 +71,29 @@ h1 {
 }
 p {
   font-family: Arial;
+}
+#test2 {
+  font-family: Helvetica;
+  background-color: #dbdbdb;
+  padding:20px;
+  margin:30px;
+  border:1px solid #000;
+  border-radius:5px;
+}
+#test2-text1 {
+  color: black;
+  flex-direction: column;
+  font-family: Helvetica;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  background-color: #828282;
+  padding: 20px;
+  margin: 20px;
+  border:1px solid #000; 
+  border-radius:5px;
 }
 /*I hope this works!*/
 /*It says it's working but it is not*/
