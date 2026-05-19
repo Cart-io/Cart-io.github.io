@@ -23,7 +23,7 @@ function showPlus7Time() {
 }
 
 function openTab() {
-  window.open("https://google.com", "_blank");
+  window.open("https://www.youtube.com/@Cart_io", "_blank");
 }
 showTime();
 setInterval(function () {
