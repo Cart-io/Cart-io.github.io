@@ -95,6 +95,21 @@ p {
   border:1px solid #000; 
   border-radius:5px;
 }
+#ad {
+  margin: auto 30px;
+}
+#ad-button {
+  transition: filter 0.2s ease;
+  width: 100%;
+  filter: brightness(100%);
+}
+#ad-button:hover {
+  filter: brightness(80%);
+}
+
+#ad-button:active {
+  filter: brightness(60%);
+}
 /*I hope this works!*/
 /*It says it's working but it is not*/
 /*why are the checks cancelled idk why*/
