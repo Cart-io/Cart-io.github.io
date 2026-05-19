@@ -22,8 +22,13 @@ function showPlus7Time() {
     document.getElementById('plus7Time').innerHTML = `${obj.weekday}, ${obj.day} ${obj.month} ${obj.year} ${obj.hour}:${obj.minute}:${obj.second} GMT+7`;
 }
 
+function openTab() {
+  window.open("https://google.com", "_blank");
+}
 showTime();
 setInterval(function () {
 	showTime();
 	showPlus7Time();
 }, 1000);
+
+
