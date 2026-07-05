@@ -23,12 +23,10 @@ function showPlus7Time() {
 }
 
 function openTab() {
-  window.open("https://www.youtube.com/@Cart_io", "_blank");
+  window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
 }
 showTime();
 setInterval(function () {
 	showTime();
 	showPlus7Time();
 }, 1000);
-
-
